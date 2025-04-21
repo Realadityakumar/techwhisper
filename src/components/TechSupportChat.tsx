@@ -46,7 +46,7 @@ const TechSupportChat: React.FC = () => {
     {
       role: "system",
       content:
-        "You are a helpful tech support assistant. You can use markdown formatting in your responses including code blocks with syntax highlighting. Keep responses concise and focused on technical support issues.",
+        "You are a helpful tech support assistant. You can use markdown formatting in your responses including code blocks with syntax highlighting. Keep responses concise and focused on technical support issues. you dont have to answer thing unrelated to tech support",
     },
   ]);
 

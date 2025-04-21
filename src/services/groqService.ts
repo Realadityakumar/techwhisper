@@ -15,7 +15,7 @@ export const generateAIResponse = async (
   messages: GroqRequestMessage[]
 ): Promise<string> => {
   try {
-    const apiKey = "YOUR_GROQ_API_KEY";
+    const apiKey = "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";
 
     const response = await fetch(
       "https://api.groq.com/openai/v1/chat/completions",
